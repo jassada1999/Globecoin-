@@ -1,187 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Globecoin (GBC)</title>
-  <style>
-    /* พื้นฐาน */
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('https://photos.app.goo.gl/xHmhi32zFSBfGSZZ6#09f71b') repeat, 
-                  linear-gradient(135deg, #1c1c1c, #3a3a3a);
-      color: #fff;
-      overflow-x: hidden;
-    }
+# Globecoin (GBC) Official Website
 
-    /* ส่วนหัว */
-    header {
-      background: rgba(0, 0, 0, 0.85);
-      padding: 20px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      border-bottom: 2px solid gold;
-    }
+Welcome to the official GitHub repository for the **Globecoin (GBC)** project. This repository contains the code for the GBC website, designed to showcase the project's features, roadmap, and more.
 
-    header .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: gold;
-    }
+## Project Overview
 
-    header nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 1rem;
-    }
+Globecoin (GBC) is a utility token designed to promote wealth, fortune, and trust. This project emphasizes fast transactions, user rewards, and a scalable roadmap for future development.
 
-    header nav a:hover {
-      color: gold;
-    }
+### Key Features:
+- **Fast Transactions:** Enjoy seamless and quick transfers of GBC tokens.
+- **Reward System:** Earn rewards by participating in the ecosystem.
+- **Future Staking:** Stake your GBC tokens to gain more benefits (coming soon).
 
-    header .cta {
-      background: gold;
-      color: #1c1c1c;
-      padding: 10px 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+---
 
-    header .cta:hover {
-      background: #fff;
-      color: #1c1c1c;
-    }
+## Sections of the Website
 
-    /* ส่วนพื้นหลัง */
-    section {
-      margin: 50px auto;
-      padding: 40px;
-      border: 2px solid gold;
-      border-radius: 10px;
-      width: 80%;
-      background: rgba(0, 0, 0, 0.8);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    }
+### 1. Home
+   - A dynamic introduction to Globecoin (GBC) with a call-to-action for users to learn more or buy the token.
 
-    section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      color: gold;
-      text-align: center;
-    }
+### 2. Features
+   - Highlights the project's main advantages and capabilities.
 
-    section p {
-      font-size: 1.2rem;
-      line-height: 1.8;
-      text-align: center;
-    }
+### 3. Tokenomics
+   - Breakdown of the token's distribution and economic plan.
 
-    /* ส่วนฮีโร่ */
-    .hero {
-      text-align: center;
-      padding: 100px 20px;
-      background: linear-gradient(135deg, #3a3a3a, #1c1c1c);
-      color: #fff;
-      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
-    }
+### 4. Roadmap
+   - Detailed timeline for future developments in the Globecoin (GBC) project.
 
-    .hero h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-      color: gold;
-    }
+### 5. Contact & Community
+   - Links to official support and community platforms such as Facebook, Telegram, and X (Twitter).
 
-    .hero p {
-      font-size: 1.5rem;
-      margin-bottom: 40px;
-    }
+---
 
-    .hero .cta-buttons a {
-      padding: 15px 30px;
-      margin: 10px;
-      text-decoration: none;
-      color: #1c1c1c;
-      font-weight: bold;
-      background: gold;
-      border-radius: 30px;
-      transition: all 0.3s;
-    }
+## How to Use This Repository
 
-    .hero .cta-buttons a:hover {
-      background: #fff;
-    }
-
-    /* ส่วนติดต่อ */
-    footer {
-      background: rgba(0, 0, 0, 0.9);
-      padding: 20px 40px;
-      text-align: center;
-    }
-
-    footer a {
-      color: gold;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="logo">Globecoin (GBC)</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#features">Features</a>
-      <a href="#tokenomics">Tokenomics</a>
-      <a href="#roadmap">Roadmap</a>
-      <a href="#contact">Community</a>
-    </nav>
-    <a href="#buy" class="cta">Buy GBC</a>
-  </header>
-
-  <section class="hero" id="home">
-    <h1>Globecoin (GBC)</h1>
-    <p>Your Gateway to Wealth and Fortune</p>
-    <div class="cta-buttons">
-      <a href="#features">Learn More</a>
-      <a href="#buy">Buy Now</a>
-    </div>
-  </section>
-
-  <section id="features">
-    <h2>Features</h2>
-    <p>Fast Transactions | Reward System | Future Staking</p>
-  </section>
-
-  <section id="tokenomics">
-    <h2>Tokenomics</h2>
-    <p>1,000,000,000 GBC | Liquidity: 50% | Marketing: 20% | Rewards: 10%</p>
-  </section>
-
-  <section id="roadmap">
-    <h2>Roadmap</h2>
-    <p>Q1 2025: Launch GBC | Q2 2025: Wallet Release | 2026: Staking System</p>
-  </section>
-
-  <footer id="contact">
-    <p>Contact Us: <a href="mailto:support@globecoin.com">support@globecoin.com</a></p>
-    <p>Join Community: 
-      <a href="https://www.facebook.com/profile.php?id=61568081243342&mibextid=ZbWKwL" target="_blank">Facebook</a> | 
-      <a href="https://t.me/+xxT0Tt-8CMEyZDNl" target="_blank">Telegram (Support)</a> | 
-      <a href="https://x.com/j_teungsuk?t=PLS3uQM9zoB0ylhmsGLKlw&s=09" target="_blank">X (Twitter)</a> | 
-      <a href="https://t.me/globecoin" target="_blank">Telegram (Community)</a>
-    </p>
-  </footer>
-</body>
-</html>
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
